@@ -15,11 +15,14 @@ import {
   } from '@chakra-ui/react';
   import { useState } from 'react';
   import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
+  import Header from './Header2';
   
   export default function SignupCard() {
     const [showPassword, setShowPassword] = useState(false);
   
     return (
+        <Box>
+        <Header />    
       <Flex
         minH={'100vh'}
         align={'center'}
@@ -94,5 +97,6 @@ import {
           </Box>
         </Stack>
       </Flex>
+      </Box>
     );
   }

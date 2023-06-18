@@ -30,7 +30,7 @@ import {
     },
     {
       label: "Farmer",
-      href: "/register/farmer",
+      href: "/register/user",
     },
     {
       label: "Buyer",
